@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mi página</title>
+	<link rel="stylesheet" type="text/css" href="navegacion.css">
+	<style>
+		body {
+			margin: 0;
+			margin-top: 50px;
+			position: relative;
+		}
+		#contenedor {
+			display: block;
+			position: relative;
+			padding-top: 10px;
+			margin: 0px auto 0 auto;
+			width: 980px;
+			background-color: darkgrey;
+		}
+
+		#categorias {
+			position: fixed;
+			border: 1px solid darkblue;
+			margin: 5px;
+		}
+		#categorias ul {
+			list-style-type: none;
+			margin: 0 auto;
+			padding: 0;
+		}
+		#categorias ul li {
+			border: 1px solid darkblue;
+		}
+		#categorias ul li a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			margin: 0;
+			padding: 5px;
+			text-align: center;
+		}
+		#categorias ul li a:hover {
+			background-color: grey;
+			transition: 250ms ease-in-out;
+		}
+		
+		.tabla_juegos {
+			float: center;
+			margin: 10px auto;
+		}
+		.tabla_juegos, .tabla_juegos th, .tabla_juegos td {
+			border-collapse: collapse;
+			border: 2px solid black;
+			min-width: 150px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<nav id="navegacion">
+		<p>RetroJaén</p>
+		<ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Videos</a></li>
+			<li class="menu-activo"><a href="#">Tienda</a></li>
+			<li><a href="#">Contacto</a></li>
+		</ul>
+	</nav>
+	<div id="contenedor">
+		<aside id="categorias">
+			<ul>
+				<li><a href="#tabla_juegos_pc">PC</a></li>
+				<li><a href="#tabla_juegos_xbox">Xbox One</a></li>
+				<li><a href="#tabla_juegos_playstation">PlayStation 4</a></li>
+				<li><a href="#tabla_juegos_switch">Nintendo Switch</a></li>
+			</ul>
+		</aside>
+
+		<!-- Tabla para juegos de PC -->
+		<table id="tabla_juegos_pc" class="tabla_juegos">
+			<thead>
+				<tr>
+					<th colspan="4">PC</th>
+				</tr>
+				<tr>
+					<th>Carátula</th>
+					<th>Nombre</th>
+					<th>Género</th>
+					<th>Precio</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="imagenes/logo_fortnite.png" width="100px"></td>
+					<td>Fortnite</td>
+					<td>FPS</td>
+					<td>Gratis</td>
+				</tr>
+				<tr>
+					<td><img src="imagenes/logos/mc.jpeg" width="100px"></td>
+					<td>Minecraft</td>
+					<td>Indie</td>
+					<td>19.95€</td>
+				</tr>
+				<tr>
+					<td><img src="imagenes/logos/pubg.jpg" width="100px"></td>
+					<td>PUBG</td>
+					<td>FPS</td>
+					<td>14.99€</td>
+				</tr>
+				<tr>
+					<td><img src="imagenes/logos/bf5.jpeg" width="100px"></td>
+					<td>Battlefield 5</td>
+					<td>FPS</td>
+					<td>59.99€</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		<!-- Tabla para juegos de Xbox -->
+		<table id="tabla_juegos_xbox" class="tabla_juegos">
+			<thead>
+				<tr>
+					<th colspan="4">Xbox One</th>
+				</tr>
+				<tr>
+					<th>Carátula</th>
+					<th>Nombre</th>
+					<th>Género</th>
+					<th>Precio</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="imagenes/logo_fortnite.png" width="100px"></td>
+					<td>Fortnite</td>
+					<td>FPS</td>
+					<td>Gratis</td>
+				</tr>
+				<tr>
+					<td><img src="imagenes/logo_fortnite.png" width="100px"></td>
+					<td>Fortnite</td>
+					<td>FPS</td>
+					<td>Gratis</td>
+				</tr>
+				<tr>
+					<td><img src="imagenes/logo_fortnite.png" width="100px"></td>
+					<td>Fortnite</td>
+					<td>FPS</td>
+					<td>Gratis</td>
+				</tr>
+				<tr>
+					<td><img src="imagenes/logo_fortnite.png" width="100px"></td>
+					<td>Fortnite</td>
+					<td>FPS</td>
+					<td>Gratis</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		<!-- Tabla para juegos de PlayStation -->
+		<table id="tabla_juegos_playstation" class="tabla_juegos">
+			<thead>
+				<tr>
+					<th colspan="4">PlayStation</th>
+				</tr>
+				<tr>
+					<th>Carátula</th>
+					<th>Nombre</th>
+					<th>Género</th>
+					<th>Precio</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="imagenes/logo_fortnite.png" width="100px"></td>
+					<td>Fortnite</td>
+					<td>FPS</td>
+					<td>Gratis</td>
+				</tr>
+				<tr>
+					<td><img src="imagenes/logo_fortnite.png" width="100px"></td>
+					<td>Fortnite</td>
+					<td>FPS</td>
+					<td>Gratis</td>
+				</tr>
+				<tr>
+					<td><img src="imagenes/logo_fortnite.png" width="100px"></td>
+					<td>Fortnite</td>
+					<td>FPS</td>
+					<td>Gratis</td>
+				</tr>
+				<tr>
+					<td><img src="imagenes/logo_fortnite.png" width="100px"></td>
+					<td>Fortnite</td>
+					<td>FPS</td>
+					<td>Gratis</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		<!-- Tabla para juegos de Switch -->
+		<table id="tabla_juegos_switch" class="tabla_juegos">
+			<thead>
+				<tr>
+					<th colspan="4">Nintendo Switch</th>
+				</tr>
+				<tr>
+					<th>Carátula</th>
+					<th>Nombre</th>
+					<th>Género</th>
+					<th>Precio</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="imagenes/logo_fortnite.png" width="100px"></td>
+					<td>Fortnite</td>
+					<td>FPS</td>
+					<td>Gratis</td>
+				</tr>
+				<tr>
+					<td><img src="imagenes/logo_fortnite.png" width="100px"></td>
+					<td>Fortnite</td>
+					<td>FPS</td>
+					<td>Gratis</td>
+				</tr>
+				<tr>
+					<td><img src="imagenes/logo_fortnite.png" width="100px"></td>
+					<td>Fortnite</td>
+					<td>FPS</td>
+					<td>Gratis</td>
+				</tr>
+				<tr>
+					<td><img src="imagenes/logo_fortnite.png" width="100px"></td>
+					<td>Fortnite</td>
+					<td>FPS</td>
+					<td>Gratis</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

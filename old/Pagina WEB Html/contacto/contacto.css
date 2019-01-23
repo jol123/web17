@@ -1,0 +1,64 @@
+body {
+			margin: 0;
+			background-image:url("../contacto.jpg");
+ 			background-position: right;
+		}
+		#navegacion {
+			position: fixed;
+			width: 100%;
+			background-color: blue;
+			padding: 0;
+			margin: 0;
+		}
+		#navegacion p {
+			display: inline;
+			float: left;
+			color: white;
+		}
+		#navegacion ul {
+			float: right;
+			margin: 0;
+			margin-right: 15px;
+			padding: 0;
+		}
+		#navegacion li {
+			display: inline-block;
+			list-style: none;
+			font-size:20px;
+			padding: 10px;
+			margin: 0;
+		}
+		#navegacion li a {
+			display: block;
+			text-decoration: none;
+			color: white;
+		}
+		#navegacion li:hover {
+			background-color: #3877a9;
+		}
+		#contenedor {
+			padding-top: 50px;
+			width: 680px;
+			height: 580px;
+			
+			background-color: darkgrey;
+		}
+		article{
+background: grey;
+border: 1px solid black;
+padding: 20px;
+margin-bottom: 15px;
+}
+header, section, footer, aside, nav, article, figure, figcaption,hgroup {
+ display: block;
+
+}
+iframe,h1,p{
+	padding-left:30px ;
+}
+h1{
+	color: blue;
+}
+h2{
+	color: #3877a9 ;
+}
