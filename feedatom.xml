@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Mi pagina</title>
+	<link href="https://jol123.github.io/web17">
+		<author>
+				<name>Juande Ortiz</name>
+		</author>
+		<entry>
+		<pubDate>Wed, 30 Jan 2019 16:43:00 EST</pubDate>
+		<entry>
+    <title>Principal</title>
+    <link>https://jol123.github.io/web17/index.html</link>
+    <summary>Pagina de Inicio</summary>
+    </entry>
+<entry>
+    <title>Videos</title>
+    <link>https://jol123.github.io/web17/html/videos.html</link>
+    <summary>Pagina de Videos</summary>
+    
+  </entry>
+  <entry>
+    <title>Tienda</title>
+    <link>https://jol123.github.io/web17/html/tienda.html</link>
+    <summary>Pagina de Tienda</summary>
+    
+  </entry>
+  <entry>
+    <title>Contacto</title>
+    <link>https://jol123.github.io/web17/html/contacto.html</link>
+    <summary>Pagina de Contacto</summary>
+    
+  </entry>
+</channel>
+</rss>
+
