@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Mi pagina</title>
+<link>https://jol123.github.io/web17</link>
+<description> Este sitio ofrece información completa sobre juegos estrenadas recientemente.
+</description>
+<language>es-ES</language>
+<item>
+<pubDate>Wed, 30 Jan 2019 16:43:00 EST</pubDate>
+    <title>Principal</title>
+    <link>https://jol123.github.io/web17/index.html</link>
+    <description>Pagina de Inicio</description>
+    <guid>https://jol123.github.io/web17/index.html</guid>
+  </item>
+<item>
+    <title>Videos</title>
+    <link>https://jol123.github.io/web17/html/videos.html</link>
+    <description>Pagina de Videos</description>
+    <guid>https://jol123.github.io/web17/html/videos.html</guid>
+  </item>
+  <item>
+    <title>Tienda</title>
+    <link>https://jol123.github.io/web17/html/tienda.html</link>
+    <description>Pagina de Tienda</description>
+    <guid>https://jol123.github.io/web17/html/tienda.html</guid>
+  </item>
+  <item>
+    <title>Contacto</title>
+    <link>https://jol123.github.io/web17/html/contacto.html</link>
+    <description>Pagina de Contacto</description>
+    <guid>https://jol123.github.io/web17/html/contacto.html</guid>
+  </item>
+</channel>
+</rss>
